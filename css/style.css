@@ -1,0 +1,11 @@
+@import url(./generic/reset.css);
+@import url(./settings/fonts.css);
+@import url(./elements/styles.css);
+@import url(./sections/header.css);
+@import url(./sections/nav.css);
+@import url(./sections/modulos.css);
+@import url(./sections/service.css);
+@import url(./sections/about.css);
+@import url(./sections/investment.css);
+@import url(../sections/garantia.css);
+@import url(./sections/footer.css);

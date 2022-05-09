@@ -1,0 +1,127 @@
+strong{
+    font-weight: bold;
+}
+
+header::before{
+    content: '';
+    width: 100vw;
+    height: calc(80rem + var(--nav-height));
+    background: var(--brand-orange-light);
+    display: block; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+section.left{
+    margin-inline: auto;
+    padding-inline: 2.4rem;
+}
+
+div.top-welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(4.1rem + var(--nav-height));
+}
+
+h2.welcome{
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.08em;
+    color: var(--brand-orange);
+    margin: 0 2.4rem 1.6rem 2.4rem;
+}
+
+h1.welcome-phrase{
+    font-style: normal;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    color: var(--gray-headline);
+    margin-bottom: 1rem;
+}
+
+div.top-welcome > p{
+    font-style: normal;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    color: var(--paragraph);
+    margin-bottom: 2.2rem;
+}
+
+div.top-welcome > p > strong{
+    font-weight: 700;
+}
+
+button{
+    padding: 1rem 2rem;
+    background: var(--brand-orange);
+    border: 0;
+    border-radius: 0.9rem;
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background: var(--brand-orange-hover);
+}
+
+button.welcome-action{
+    margin-bottom: 6.4rem;
+}
+
+.top-img{
+    width: 94%;
+}
+
+.thumb{
+    width: 100%;
+    height: auto;
+    margin-inline: auto;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+div.numbers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    width: 100%;
+    height: 30rem;
+    background: var(--brand-beige);
+    gap: 4rem;
+    padding: 2.5rem 5rem;
+    border: 1px solid #F8E9DD;
+    border-radius: 0.38rem;
+}
+
+div.numbers-alunos h1{
+    font-style: normal;
+    font-size: 3.1rem;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 0.4rem;
+    text-align: center;
+    color: var(--gray-headline);
+}
+
+div.numbers-alunos p{
+    font-style: normal;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    color: var(--brand-orange);
+}

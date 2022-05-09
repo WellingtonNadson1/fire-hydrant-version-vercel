@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.8rem;
+    background: var(--brand-orange);
+    padding: 2.4rem;
+}
+
+footer > p{
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: start;
+    color: var(--white);
+    margin-bottom: 1rem;
+}

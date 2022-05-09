@@ -1,0 +1,54 @@
+/* div.list-menu, div.social{
+    display: none;
+} */
+
+nav.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--nav-height);
+    width: 100vw;
+    padding-inline: 2.4rem;
+    position: fixed;
+    top: 0;
+    /* left: 50%;
+    transform: translateX(-50%); */
+}
+
+nav.scroll{
+    background: #E66100DE;
+    background-image: url(../../img/Logo\ FireHydrant\ white.svg);
+    background-repeat: no-repeat;
+    background-position: 2.4rem 1rem;
+    height: 4rem;
+    transition: 0.15s ease-in-out;
+}
+
+nav.scroll > img{
+    display: none;
+}
+
+div.menu-hamburguer{
+    display: none;
+    /* flex-direction: column;
+    align-items: end;
+    gap: 0.5rem; */
+}
+
+div.menu-hamburguer > span{
+    content: '';
+    display:inline-block;
+    
+    width: 2.25rem;    
+    border: 2px solid var(--brand-orange);
+    background-color: var(--brand-orange);
+    border-radius: 0.5rem;
+}
+
+div.menu-hamburguer > span:nth-child(3){
+    content: '';
+    display:inline-block;
+    width: 1.3rem;    
+    border: 2px solid var(--brand-orange);
+    border-radius: 0.5rem;
+} 

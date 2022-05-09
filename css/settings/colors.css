@@ -1,0 +1,36 @@
+:root{
+    --title: #595959;
+
+    --title_2: #B1B1B2;
+
+    --paragraph: #9A9A9A;
+
+    --bg-dashboard: #F5F6FA;
+
+    --bg-nav: #FFFFFF;
+
+    /* Primary colors */
+
+    --brand-orange: #E66100;
+
+    --brand-orange-light: #F8E9DD;
+
+    --brand-orange-light-02: #F9F8F7;
+
+    --brand-beige: #FFFAF1;
+
+    --brand-orange-hover: #AC4800;
+
+    /* Secondary Colors */
+
+    --gray-headline: #061800;
+
+    --gray-paragraph: #384633;
+
+    --paragraph: #495057;
+
+    --white: #FFFFFF;
+
+
+    --nav-height: 7.2rem;
+}
